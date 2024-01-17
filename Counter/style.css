@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: #BAD1CD;
+}
+
+.counter{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+h1{
+    position:relative;
+    left:50%;
+    top:50%;
+    transform:translate(-15%,-25%);
+    font-size: 90px;
+}
+button{
+    border:2px solid rgb(139, 194, 235);
+    background-color:#AA6DA3;
+    height:2rem;
+    color:white;
+    padding:4px 4px;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function:ease-in;
+    transition-delay:0s;
+}
+
+button:hover{
+    opacity:0.7;
+    transform: translateY(-10px);
+}
+
