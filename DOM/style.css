@@ -1,0 +1,26 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+.container{
+/*    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   height:800px;
+    
+}
+
+li{
+    font-size:x-large;
+    border: 2px;
+    list-style-type:none;
+}
+
