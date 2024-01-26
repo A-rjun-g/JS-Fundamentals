@@ -2,3 +2,16 @@
 To create a 3*3 Structure. Planned to use a table (3 rows and each row contain 3 column)
 2. Planned to Display a Winner of the game
 3. Displaying the button to the user asking him to reset and play again
+
+
+Javascript:
+    
+
+turn click function:
+    When  we use addEventListener to attach a function as an event handler, the function is automatically provided with an event object as its first parameter. In this case, the turnClick function is assigned as the event handler for the 'click' event, so when the event occurs (i.e., when a square is clicked), the browser automatically passes an event object to the turnClick function.
+
+    The browser will internally pass the event object as the first argument
+
+checkWin function:
+    **`reduce` Method:** - The `reduce` method is used to iterate over each element of the `board` array. - For each element (`e`) and its index (`i`), if the element is equal to the current player (`player`), its index (`i`) is added to the `plays` array. - The `reduce` method accumulates the indices where the player has made a move.
+    **Iteration over Winning Combinations:** - The function then iterates over each winning combination using a `for...of` loop, where each combination is represented by `[index, win]`. - `index` is the index of the current winning combination, and `win` is an array of indices representing that winning combination. 6. 
